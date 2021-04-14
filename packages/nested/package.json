@@ -13,6 +13,7 @@
     "rxjs": "^6.5.3"
   },
   "dependencies": {
-    "@angular/cli": "git+https://github.com/angular/cli-builds.git#master"
+    "@angular/cli": "git+https://github.com/angular/cli-builds.git#master",
+    "@angular/core": "^1",
   }
 }
