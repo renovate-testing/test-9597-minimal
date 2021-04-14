@@ -4,13 +4,6 @@
     "semanticPrefix": "build",
     "commitMessage": "{{semanticPrefix}} update {{#if groupName}}{{{groupName}}} packages{{else}}{{{depName}}} to version {{{newVersion}}}{{/if}}",
     "separateMajorMinor": false,
-    "prHourlyLimit": 2,
-    "labels": [
-      "target: minor",
-      "comp: build & ci",
-      "action: merge"
-    ],
-    "timezone": "America/Tijuana",
     "lockFileMaintenance": {
       "enabled": true
     },
