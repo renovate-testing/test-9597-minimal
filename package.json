@@ -8,6 +8,7 @@
   },
   "license": "ISC",
   "dependencies": {
-    "@angular/cli": "git+https://github.com/angular/cli-builds.git#master"
+    "@angular/cli": "git+https://github.com/angular/cli-builds.git#master",
+    "tslint": "5.0.0"
   }
 }
