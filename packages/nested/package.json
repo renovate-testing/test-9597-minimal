@@ -14,6 +14,7 @@
   },
   "dependencies": {
     "@angular/cli": "git+https://github.com/angular/cli-builds.git#master",
-    "@angular/core": "^1"
+    "@angular/core": "^1.0.0",
+    "@angular/common": "^1.0.0"
   }
 }
