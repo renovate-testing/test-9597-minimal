@@ -9,15 +9,6 @@
     "target: minor",
     "action: merge"
   ],
-  "timezone": "America/Tijuana",
-  "lockFileMaintenance": {
-    "enabled": true
-  },
-  "schedule": [
-    "after 10pm every weekday",
-    "before 4am every weekday",
-    "every weekend"
-  ],
   "baseBranches": [
     "master"
   ],
@@ -33,42 +24,12 @@
   "packageRules": [
     {
       "packagePatterns": [
-        "^@angular\/.*"
-      ],
-      "groupName": "angular",
-      "pinVersions": false
-    },
-   {
-      "packagePatterns": [
-        "^@babel\/.*"
-      ],
-      "groupName": "Babel",
-      "pinVersions": false
-    },
-    {
-      "packagePatterns": [
         "^@bazel\/.*",
         "^build_bazel.*",
         "bazel_toolchains"
       ],
       "groupName": "bazel",
       "pinVersions": false
-    },
-    {
-      "packageNames": [
-        "typescript"
-      ],
-      "separateMinorPatch": true
-    },
-    {
-      "packageNames": [
-        "typescript"
-      ],
-      "updateTypes": [
-        "minor",
-        "major"
-      ],
-      "enabled": false
     }
   ]
 }
