@@ -11,10 +11,6 @@ http_archive(
     urls = ["https://github.com/bazelbuild/rules_nodejs/releases/download/3.2.2/rules_nodejs-3.2.2.tar.gz"],
 )
 
-##########################
-# Remote Execution Setup #
-##########################
-# Bring in bazel_toolchains for RBE setup configuration.
 http_archive(
     name = "bazel_toolchains",
     sha256 = "1adf5db506a7e3c465a26988514cfc3971af6d5b3c2218925cd6e71ee443fc3f",
